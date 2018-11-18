@@ -1,0 +1,29 @@
+<b:tag name='style' type='text/css'>
+<b:if cond='data:view.isMultipleItems'>
+.clearfix:after,.clearfix:before,.container:after,.container:before{display:table;content:&quot; &quot;}
+.container{position:relative}
+@media (min-width:1200px){.container{width:1170px}}
+@media (min-width:992px){.container{width:970px}}
+@media (min-width:768px){.container{width:750px}}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+@media (min-width:768px){.container{width:750px}}
+@media (min-width:992px){.container{width:970px}}
+@media (min-width:1200px){.container{width:1170px}}#breakingnews{background-color:#0e2431;bottom:0;height:45px;position:fixed;right:0;width:100%;z-index:9999}
+#breakingnews .title{background-color:#f00;float:right;height:65px;line-height:65px;position:relative;text-align:center;top:-15px;width:4%;margin-right: -90px;}
+#breakingnews .title img{height:45px;width:45px;margin-top: 15px;float:left;margin-left: -4px;}
+#breakingnews .title::after{border-style:solid;border-width:0 0 15px 15px;border-color:transparent transparent #f00 transparent;_border-color:#000000 #000000 #cc0500 #000000;_filter:progid:DXImageTransform.Microsoft.Chroma(color=&#39;#000000&#39;);content:&quot;&quot;;display:inline-block;height:0;left:-15px;line-height:0;position:absolute;top:0;width:0}
+.marquee{direction:ltr;float:left;height:50px;overflow:hidden;width:111%;margin-left: -55px;}
+#breakingnews .marquee .js-marquee ul
+li{direction:rtl;display:inline-block;float:right;font-size:15px;line-height:50px;margin:0
+0 0 35px;padding:0
+0 0 35px;position:relative}
+#breakingnews .marquee .js-marquee ul li::before{background-image:url(&quot;https://1.bp.blogspot.com/-ag7aFwDt6Bw/W9kzvzi2WcI/AAAAAAAAA4I/dJ9G-Jh0u3sBD4Kn6iZtUeCdHdpR3eiMACLcBGAs/s1600/oie_transparent.png&quot;);background-size:35px 35px;content:&quot;&quot;;display:inline-block;height:35px;left:-35px;line-height:35px;margin:0
+15px;position:absolute;top:5px;width:35px}
+#breakingnews .marquee .js-marquee ul li
+a{color:#fff;}
+#breakingnews .marquee .js-marquee ul li a:hover{color:#ff2e63}
+#breakingnews
+button.closebtn{background-color:#df0303;border:medium none;border-radius:3px;color:#fff;float:left;font-family:play;font-size:20px;height:30px;left:-75px;line-height:30px;padding:0;position:absolute;text-align:center;top:10px;width:30px;-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}
+#breakingnews button.closebtn:hover{background-color:#d00000}
+</b:if>
+</b:tag>
